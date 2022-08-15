@@ -36,11 +36,11 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <div className="contactRightBar"></div>
+      {/* <div className="contactRightBar"></div> */}
 
       <div className="contactContainer">
         <form className="contactContainerForm" onSubmit={contactFormHandler}>
-          <Typography variant="h4">Contact Us</Typography>
+          <Typography variant="h4">Contact Me</Typography>
 
           <input
             type="text"

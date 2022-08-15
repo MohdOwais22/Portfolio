@@ -26,11 +26,11 @@
   letter-spacing: 15px;
   display: flex;
   transform: translateX(-100vw);
-  animation: contactFormInputs 1s ease-in-out forwards;
+  animation: contactFormInputs 0s ease-in-out forwards;
   justify-content: center;
 }
 .loginForm > h4 > p {
-  transition: all 0.5s;
+  /* transition: all 0.5s; */
   cursor: default;
 }
 .loginForm > h4 > p:hover {
@@ -49,8 +49,8 @@
   margin: 1vmax;
   border: 1px solid rgba(0, 0, 0, 0.192);
   transform: translateX(-100vw);
-  border-radius: 30px;
-  animation: contactFormInputs 1s ease-in-out forwards 0.5s;
+  border-radius: 5px;
+  animation: contactFormInputs 0s ease-in-out forwards 0s;
   outline: none;
   font: 100 1rem "Roboto";
 }
@@ -59,9 +59,9 @@
   padding: 1vmax 2vmax;
   margin: 1vmax;
   transform: translateY(-100vh);
-  animation: contactFormBtn 1s ease-in-out forwards 1s;
-  border-radius: 30px;
-  background-color: hsl(250, 100%, 75%);
+  animation: contactFormBtn 0s ease-in-out forwards 0s;
+  border-radius: 5px;
+  background-color: rgb(255, 80, 80);
 
   color: white;
   transition: all 0.5s;

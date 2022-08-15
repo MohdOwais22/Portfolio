@@ -1,5 +1,6 @@
 .projects {
-  background-color: hsl(219, 48%, 8%);
+  background-color: black;
+  /* background-color: hsl(219, 48%, 8%); */
   min-height: 100vh;
   padding-top: 15vmax;
 }
@@ -8,21 +9,22 @@
   text-align: center;
   color: rgb(255, 255, 255);
   position: absolute;
-  background-color: hsl(250, 100%, 75%);
+  /* background-color: hsl(250, 9%, 52%); */
+  background-color: rgb(255, 80, 80);
   padding: 2vmax 4vmax;
   display: flex;
-  border-radius: 100px;
+  border-radius: 10px;
   align-items: center;
   left: 50%;
-  transform: translate(-50%, -100vh);
-  animation: projectHeadingAnimation 1s ease-in-out forwards;
+  /* transform: translate(-50%, -100vh); */
+  animation: projectHeadingAnimation 0s ease-in-out forwards;
 }
 .projects > h3 > svg {
   margin: 1vmax;
 }
 .projectsWrapper {
   border-top: 100px solid white;
-  border-radius: 300px 300px 0 0;
+  /* border-radius: 300px 300px 0 0; */
   min-height: inherit;
   background-color: white;
   display: flex;
@@ -31,7 +33,6 @@
   flex-wrap: wrap;
   padding: 5vmax;
   padding-bottom: 10vmax;
-
   overflow-x: hidden;
 }
 
@@ -43,13 +44,13 @@
   border-radius: 10px;
   display: flex;
   transform: translateX(-100vw);
-  animation: projectCardAnimation 1s ease-in-out forwards 0.5s;
+  animation: projectCardAnimation 0s ease-in-out forwards 0.5s;
 }
-.projectCard:nth-child(even) {
+/* .projectCard:nth-child(even) {
   transform: translateX(100vw);
   flex-direction: row-reverse;
   animation: projectCardAnimation 1s ease-in-out forwards 1s;
-}
+} */
 
 .projectCard > div {
   width: 100%;
@@ -57,19 +58,20 @@
   box-sizing: border-box;
   flex-direction: column;
   align-items: center;
-  transition: all 0.5s;
+  /* transition: all 0.5s; */
   justify-content: space-around;
 }
 
 .projectCard > div:first-child::after {
-  content: "VIEW DEMO";
+  content: "View Demo";
   width: 100%;
   height: 100%;
-  font: 100 2rem "Roboto";
+  border-radius: 5px;
+  font: 200 2rem "Roboto";
   align-items: center;
   justify-content: center;
   display: flex;
-  background-color: hsl(250, 100%, 75%);
+  background-color: rgb(255, 80, 80);
   color: white;
 }
 .projectCard > div:first-child > h5 {
@@ -97,9 +99,9 @@
   width: inherit;
 }
 
-.projectCard:hover div:first-child {
-  filter: hue-rotate(240deg) blur(4px);
-}
+/* .projectCard:hover div:first-child {
+  filter: hue-rotate(240deg) blur(1px);
+} */
 
 @keyframes projectCardAnimation {
   to {

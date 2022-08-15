@@ -18,9 +18,9 @@
 }
 
 .aboutContainer > p {
-  text-align: right;
+  /* text-align: right; */
   letter-spacing: 5px;
-  word-spacing: 5px;
+  /* word-spacing: 5px; */
   line-height: 60px;
   color: rgba(15, 15, 15, 0.822);
   font-size: 1.5vmax;
@@ -29,17 +29,18 @@
 
 .aboutContainer2 {
   width: 60%;
-  min-height: 80vh;
+  min-height: 90vh;
   background-color: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.281);
   position: absolute;
   bottom: 0;
   box-sizing: border-box;
-  padding: 2vmax;
+  border-radius: 10px;
+  /* padding: 2vmax; */
   display: flex;
   transform: translateX(-100vw) translateY(-10%) rotateZ(-360deg);
 
-  animation: aboutAnimation 1s ease-in forwards;
+  animation: aboutAnimation 0s ease-in forwards;
 }
 .aboutContainer2 > div {
   width: 100%;
@@ -57,12 +58,12 @@
   width: 300px;
   height: 300px;
   border-radius: 100%;
-  transition: all 1s;
+  transition: all 0s;
 }
 
 .aboutAvatar:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.452);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.452); */
 }
 
 @keyframes aboutAnimation {

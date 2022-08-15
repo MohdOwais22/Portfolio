@@ -5,7 +5,7 @@
   height: 100vh;
 }
 
-.contactRightBar {
+/* .contactRightBar {
   background-image: linear-gradient(to bottom, hsl(250, 100%, 75%), white);
 
   width: 30%;
@@ -13,19 +13,19 @@
   animation: contactFormTransition 1s linear forwards;
   position: absolute;
   right: 0;
-}
+} */
 
 .contactContainer {
   height: 80%;
   width: 70%;
   background-color: white;
   position: absolute;
-  border-radius: 100px 0 0 100px;
+  border-radius: 10px 10px 10px 10px;
   top: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
   display: flex;
   justify-content: center;
-  animation: contactTransition 1s linear forwards;
+  animation: contactTransition 0s linear forwards;
 }
 
 .contactContainerForm {
@@ -46,13 +46,13 @@
   font-size: 1rem;
   font-family: "Roboto";
   border: 1px solid rgba(0, 0, 0, 0.205);
-  transform: translateX(-100vw);
-  animation: contactFormInputs 1s ease-in-out forwards 0.5s;
+  /* transform: translateX(-100vw); */
+  animation: contactFormInputs 0s ease-in-out forwards 0.5s;
 }
 .contactContainerForm > button {
-  background-color: hsl(250, 100%, 75%);
+  background-color: rgb(255, 80, 80);
   transform: translateY(-100vh);
-  animation: contactFormBtn 1s ease-in-out forwards 1s;
+  animation: contactFormBtn 0s ease-in-out forwards 0s;
 }
 .contactContainerForm > button:hover {
   background-color: hsl(219, 48%, 8%);

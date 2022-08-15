@@ -17,11 +17,10 @@ import {
   SiHtml5,
   SiThreedotjs,
 } from "react-icons/si";
-import YoutubeCard from "../YoutubeCard/YoutubeCard";
 import { Link } from "react-router-dom";
 import { MouseOutlined } from "@mui/icons-material";
 
-const Home = ({ timelines, youtubes, skills }) => {
+const Home = ({ timelines, skills }) => {
   useEffect(() => {
     const textureLoader = new THREE.TextureLoader();
 
@@ -123,21 +122,18 @@ const Home = ({ timelines, youtubes, skills }) => {
 
       <div className="homeCanvasContainer">
         <Typography variant="h1">
+          <p>O</p>
+          <p>W</p>
           <p>A</p>
-          <p>B</p>
-          <p>H</p>
           <p>I</p>
           <p>S</p>
-          <p>H</p>
-          <p>E</p>
-          <p>K</p>
         </Typography>
 
         <div className="homeCanvasBox">
-          <Typography variant="h2">DESIGNER</Typography>
+          <Typography variant="h2">STUDENT</Typography>
           <Typography variant="h2">DEVELOPER</Typography>
-          <Typography variant="h2">TEACHER</Typography>
-          <Typography variant="h2">CONTENT CREATOR</Typography>
+          <Typography variant="h2">PROGRAMMER</Typography>
+          <Typography variant="h2">ENGINEER</Typography>
         </div>
 
         <Link to="/projects">VIEW WORK</Link>
@@ -196,7 +192,7 @@ const Home = ({ timelines, youtubes, skills }) => {
         </div>
       </div>
 
-      <div className="homeYoutube">
+      {/* <div className="homeYoutube">
         <Typography variant="h3"> YOUTUBE VIDEOS</Typography>
 
         <div className="homeYoutubeWrapper">
@@ -210,7 +206,7 @@ const Home = ({ timelines, youtubes, skills }) => {
             />
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

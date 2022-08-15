@@ -29,8 +29,8 @@ const About = ({ about }) => {
         <div>
           <Typography
             style={{
-              wordSpacing: "5px",
-              lineHeight: "50px",
+              // wordSpacing: "5px",
+              lineHeight: "25px",
               letterSpacing: "5px",
               textAlign: "right",
             }}

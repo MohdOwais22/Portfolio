@@ -1,7 +1,7 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
-import { BsGithub, BsYoutube, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import "./Footer.css";
 
 const Footer = () => {
@@ -10,26 +10,25 @@ const Footer = () => {
       <div>
         <Typography variant="h5">About Me</Typography>
         <Typography>
-          Hey, my name is Abhishek Singh. I am a Full-Stack Developer and a
-          tutorial on Youtube channel called <b> 6 Pack Programmer</b>
+          Hey, my name is Mohd Owais. I am a Full-Stack Developer and a<b> PROGRAMMER</b>
         </Typography>
 
         <Link to="/contact" className="footerContactBtn">
-          <Typography>Contact Us</Typography>
+          <Typography>Contact Me</Typography>
         </Link>
       </div>
       <div>
         <Typography variant="h6">Social Media</Typography>
-        <a href="https://github.com/meabhisingh/" target="black">
+        <a href="https://github.com/MohdOwais22" target="black">
           <BsGithub />
         </a>
-        <a href="https://youtube.com/6packprogrammer/" target="black">
+        {/* <a href="https://youtube.com/6packprogrammer/" target="black">
           <BsYoutube />
-        </a>
-        <a href="https://instagram.com/meabhisingh/" target="black">
+        </a> */}
+        <a href="https://instagram.com/mohd_owais22/" target="black">
           <BsInstagram />
         </a>
-        <a href="https://www.linkedin.com/in/meabhisingh/" target="black">
+        <a href="https://www.linkedin.com/in/mohd-owais-b6b5671b8/" target="black">
           <BsLinkedin />
         </a>
       </div>
